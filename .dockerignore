@@ -1,0 +1,31 @@
+# Ignore development and unnecessary files
+
+# Development-related
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Local development files
+*.log
+*.sqlite3
+
+# Virtual environment
+venv
+.venv
+.venv2
+
+# Dependencies and build artifacts
+node_modules
+build
+dist
+*.egg-info
+*.egg
+
+# Ignore project-specific secrets and sensitive files
+.env
+
+# git
+.git
+.gitignore
